@@ -30,19 +30,19 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 
 4. Breaking Out Property Address: splitting the "Property Address" column into individual columns for address, city, and state.
 
-![](Standardizing_Date_Format.jpg)
+![](Property_Address.jpg)
 
 5. Breaking Out Owner Address: dividing the "Owner Address" column into columns for address, city, and state.
 
-![](Standardizing_Date_Format.jpg)
+![](Owner_Address.jpg)
 
 6. Changing 'Y' and 'N' to 'Yes' and 'No': replacing 'Y' with 'Yes' and 'N' with 'No' in the "SoldAsVacant" column.
 
-![](Standardizing_Date_Format.jpg)
+![](Changing_Y_N.jpg)
 
 7. Removing Duplicates.
 
-![](Standardizing_Date_Format.jpg)
+![](Removing_Duplicates.jpg)
 
 8. Deleting Unused Columns.
 

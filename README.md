@@ -1,4 +1,4 @@
-# Cleaning-Data-in-SQL
+# Cleaning Data in SQL
 
 <h2>Table of Contents</h2>
 

@@ -46,4 +46,5 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 
 8. Deleting Unused Columns.
 
-![](Standardizing_Date_Format.jpg)
+![](Deleting_Columns.jpg)
+

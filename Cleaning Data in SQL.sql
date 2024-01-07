@@ -1,12 +1,10 @@
-/* 
-Cleaning Data in SQL Queries
-*/
+-- Cleaning Data in SQL Queries
 
 SELECT *
 FROM PortfolioProject.dbo.NashvilleHousing
 
 ----------------------------------------------------------------------------------------------------------------------------------
--- Standarize Date Format
+-- Standardizing Date Format
 ----------------------------------------------------------------------------------------------------------------------------------
 
 SELECT SaleDateConverted, CONVERT(Date, SaleDate)
@@ -19,7 +17,7 @@ UPDATE NashvilleHousing
 SET SaleDateConverted = CONVERT(Date, SaleDate)
 
 ----------------------------------------------------------------------------------------------------------------------------------
--- Populate Property Address Data
+-- Populating Property Address Data
 ----------------------------------------------------------------------------------------------------------------------------------
 
 SELECT *
@@ -93,7 +91,7 @@ SET OwnerSplitState = PARSENAME(REPLACE(OwnerAddress, ',', '.'), 1)
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
--- Change Y and N to Yes and No in "Sold as Vacant" field
+-- Changing Y and N to Yes and No in "Sold as Vacant" field
 ----------------------------------------------------------------------------------------------------------------------------------
 
 SELECT DISTINCT(SoldAsVacant), COUNT(SoldAsVacant)
@@ -135,7 +133,7 @@ FROM RowNumCTE
 WHERE row_num > 1
 
 ----------------------------------------------------------------------------------------------------------------------------------
---Delete Unused Columns
+--Deleting Unused Columns
 ----------------------------------------------------------------------------------------------------------------------------------
 
 ALTER TABLE PortfolioProject.dbo.NashvilleHousing

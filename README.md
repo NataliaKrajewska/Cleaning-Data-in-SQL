@@ -1,4 +1,4 @@
-# Nashville Housing Analysis
+# Nashville Housing Data Analysis
 
 <h2>Table of Contents</h2>
 

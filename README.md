@@ -20,33 +20,33 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 <h2>Data Cleaning Steps</h2>
 
 1. Data loading and inspection.
-2. Date Format Standardization: converting the "SaleDate" column to a consistent date format and creates a new column "SaleDateConverted".
+2. Date Format Standardization: Converting the "SaleDate" column to a consistent date format and creates a new column "SaleDateConverted".
 ---
 
 ![](Standardizing_Date_Format.jpg)
 
 ---
 
-3. Populating Property Address Data: filling missing property addresses based on ParcelID matches with non-null addresses.
+3. Populating Property Address Data: Filling missing property addresses based on ParcelID matches with non-null addresses.
 
 ---
 ![](Populating_Property_Address_Data.jpg)
 
 ---
 
-4. Breaking Out Property Address: splitting the "Property Address" column into individual columns for address, city, and state.
+4. Breaking Out Property Address: Splitting the "Property Address" column into individual columns for address, city, and state.
 
 ---
 ![](Property_Address.jpg)
 
 ---
-5. Breaking Out Owner Address: dividing the "Owner Address" column into columns for address, city, and state.
+5. Breaking Out Owner Address: Dividing the "Owner Address" column into columns for address, city, and state.
 
 ---
 ![](Owner_Address.jpg)
 
 ---
-6. Changing 'Y' and 'N' to 'Yes' and 'No': replacing 'Y' with 'Yes' and 'N' with 'No' in the "SoldAsVacant" column.
+6. Changing 'Y' and 'N' to 'Yes' and 'No': Replacing 'Y' with 'Yes' and 'N' with 'No' in the "SoldAsVacant" column.
 
 ---
 ![](Changing_Y_N.jpg)
@@ -62,4 +62,29 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 
 ---
 ![](Deleting_Columns.jpg)
+
+--- 
+
+<h2>Exploratory Data Analysis</h2>
+
+1. Properties per City: Counting the number of properties sold per city and presenting the data in descending order of properties sold.
+---
+![](Deleting_Columns.jpg)
+
+---
+
+2. Properties per Owner: Counting the number of properties owned by each owner, excluding cases with null owner names.
+
+---
+![](Deleting_Columns.jpg)
+
+---
+
+3. Sold Properties per Year: Counting the number of properties sold in each year and presenting the data in descending order.
+
+---
+![](Deleting_Columns.jpg)
+
+---
+4. Creating Price Categories: Dividing the data into price categories ("Cheap," "Average," "Expensive") based on the SalePrice column and counting properties in each category.
 

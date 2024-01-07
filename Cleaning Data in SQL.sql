@@ -41,7 +41,7 @@ JOIN PortfolioProject.dbo.NashvilleHousing b
 WHERE a.PropertyAddress is null
 
 ----------------------------------------------------------------------------------------------------------------------------------
--- Breaking Out Address Into Individual Columns (Address, City, State)
+-- Breaking Out Property Address Into Individual Columns (Address, City, State)
 ----------------------------------------------------------------------------------------------------------------------------------
 
 SELECT
@@ -62,6 +62,9 @@ Add PropertySplitCity Nvarchar(255);
 UPDATE NashvilleHousing
 SET PropertySplitCity = SUBSTRING(PropertyAddress, CHARINDEX(',', PropertyAddress) +1, LEN(PropertyAddress))
 
+----------------------------------------------------------------------------------------------------------------------------------
+-- Breaking Out Owner Address Into Individual Columns (Address, City, State)
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 SELECT 

@@ -6,6 +6,7 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning Steps](#data-cleaning-steps)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 
 <h2>Project Overview</h2>
 This project aims to tramsform raw data in SQL to make it more usable for analysis.

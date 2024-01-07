@@ -69,22 +69,24 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 
 1. Properties per City: Counting the number of properties sold per city and presenting the data in descending order of properties sold.
 ---
-![](Deleting_Columns.jpg)
+![](Properties_Per_City.jpg)
 
 ---
 
 2. Properties per Owner: Counting the number of properties owned by each owner, excluding cases with null owner names.
 
 ---
-![](Deleting_Columns.jpg)
+![](Properties_Per_Owner.jpg)
 
 ---
 
 3. Sold Properties per Year: Counting the number of properties sold in each year and presenting the data in descending order.
 
 ---
-![](Deleting_Columns.jpg)
+![](Sold_Per_Year.jpg)
 
 ---
 4. Creating Price Categories: Dividing the data into price categories ("Cheap," "Average," "Expensive") based on the SalePrice column and counting properties in each category.
 
+---
+![](Price_Categories.jpg)

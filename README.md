@@ -9,7 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 
 <h2>Project Overview</h2>
-This project aims to tramsform raw data in SQL to make it more usable for analysis.
+This project aims to clean and transform raw data in SQL to make it more usable for analysis and pave the way for deep insights.
 
 <h2>Data Sources</h2>
 The dataset used for this project is the "Nashville_Housing.xlsx" file, containing detailed information about Nashville's real estate market.

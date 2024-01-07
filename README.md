@@ -1,4 +1,4 @@
-# Cleaning Data in SQL
+# Nashville Housing Analysis
 
 <h2>Table of Contents</h2>
 

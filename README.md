@@ -7,6 +7,7 @@
 - [Tools](#tools)
 - [Data Cleaning Steps](#data-cleaning-steps)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results](#results)
 
 <h2>Project Overview</h2>
 This project aims to clean and transform raw data in SQL to make it more usable for analysis and pave the way for deep insights.
@@ -210,3 +211,7 @@ SELECT Price_Category, COUNT([UniqueID]) AS Total_Properties
 FROM PriceCat
 GROUP BY Price_Category
 ```
+
+<h2>Results</h2>
+
+The analysis provided deeper insights into the structure of the Nashville housing market by identifying data patterns. The generated insights offered valuable information regarding the distribution of properties across different cities, the involvement of individual property owners, and sales trends over years across various price categories.

@@ -20,9 +20,10 @@ The dataset used for this project is the "Nashville_Housing.xlsx" file, containi
 <h2>Data Cleaning Steps</h2>
 
 1. Data loading and inspection
-2. Date Format Standardization
-3. Populating Property Address Data
-4. Breaking Out Address Into Individual Columns (Address, City, State)
-5. Changing Y and N to Yes and No in "Sold as Vacant" field
-6. Removing Duplicates
-7. Deleting Unused Columns
+2. Date Format Standardization: converting the "SaleDate" column to a consistent date format and creates a new column "SaleDateConverted"
+3. Populating Property Address Data: filling missing property addresses based on ParcelID matches with non-null addresses
+4. Breaking Out Property Address: splitting the "Property Address" column into individual columns for address, city, and state
+5. Breaking Out Owner Address: dividing the "Owner Address" column into columns for address, city, and state
+6. Changing 'Y' and 'N' to 'Yes' and 'No': replacing 'Y' with 'Yes' and 'N' with 'No' in the "SoldAsVacant" column
+7. Removing Duplicates
+8. Deleting Unused Columns

@@ -3,7 +3,7 @@
 <h2>Table of Contents</h2>
 
 - [Project Overview](#project-overview)
-- [Data Source](#data-sources)
+- [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning Steps](#data-cleaning-steps)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -12,7 +12,7 @@
 <h2>Project Overview</h2>
 This project aims to clean and transform raw data in SQL to make it more usable for analysis and pave the way for deep insights.
 
-<h2>Data Sources</h2>
+<h2>Data Source</h2>
 The dataset used for this project is the "Nashville_Housing.xlsx" file, containing detailed information about Nashville's real estate market.
 
 <h2>Tools</h2>

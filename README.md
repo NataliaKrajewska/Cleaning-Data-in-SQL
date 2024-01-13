@@ -3,7 +3,7 @@
 <h2>Table of Contents</h2>
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
+- [Data Source](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning Steps](#data-cleaning-steps)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
